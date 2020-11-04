@@ -1,6 +1,7 @@
 """Code for Attention-Guided Image editing"""
-import os
+
 from datetime import datetime
+import os
 import argparse
 import glob
 from trainer import *
