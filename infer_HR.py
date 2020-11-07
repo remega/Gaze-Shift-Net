@@ -51,10 +51,10 @@ if __name__ == '__main__':
 
 
     # load image + mask
-    m_path = './datasets/example_data/masks'
-    im_path = './datasets/example_data/ims'
-    ms = sorted(glob.glob(os.path.join(m_path, '*.png')))
-    ims = sorted(glob.glob(os.path.join(im_path, '*.png')))
+    m_path = './dataset/mask'
+    im_path = './dataset/img'
+    ms = sorted(glob.glob(os.path.join(m_path, '*.jpg')))
+    ims = sorted(glob.glob(os.path.join(im_path, '*.jpg')))
 
 
 
