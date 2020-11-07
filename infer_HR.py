@@ -19,7 +19,7 @@ def iterator(im_path, m_path):
 if __name__ == '__main__':
     # Let's allow the user to pass the filename as an argument
     parser = argparse.ArgumentParser()
-    parser.add_argument("--frozen_model", default="results/frozen_model.pb", type=str,
+    parser.add_argument("--frozen_model", default="../increase-20201104T102629Z-001/increase/frozen_model.pb", type=str,
                         help="Frozen model file to import")
     args = parser.parse_args()
 
